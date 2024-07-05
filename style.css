@@ -189,7 +189,7 @@ section .title::after {
     object-fit: cover;
     border-radius: 6px;
 }
-/*  sesao servisos*/
+/*  sesao projetos*/
 .services,  .teams{
     background: #111;
     color: #fff;
@@ -299,20 +299,15 @@ section .title::after {
     background: #00804b;
 }
 .skills .skills-content .right .html::before {
-    width: 93%;
-}
-.skills .skills-content .right .css::before {
     width: 60%;
 }
+.skills .skills-content .right .css::before {
+    width: 40%;
+}
 .skills .skills-content .right .js::before {
-    width: 35%;
+    width: 28%;
 }
-.skills .skills-content .right .php::before {
-    width: 10%;
-}
-.skills .skills-content .right .mysql::before {
-    width: 23%;
-}
+
 
 /*  sesao contato  */
 .contact .title::after {
@@ -386,6 +381,9 @@ textarea,
 }
 .contact .right form .email {
     margin-left: 10px;
+}
+.contact a {
+    color: #fff;
 }
 .sobren input {
     width: 100%;

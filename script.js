@@ -32,3 +32,6 @@ function btn() {
     
 }
 
+function enviar() {
+    alert("Essa função ainda nã foi definida")
+}

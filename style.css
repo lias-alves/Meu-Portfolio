@@ -239,7 +239,7 @@ section .title::after {
 }
 /*  sessao especialidades  */
 .skills .title::after {
-    content: "Que faço";
+    content: "Cursos";
 }
 .carousel .card{
     margin: auto;
@@ -307,11 +307,14 @@ section .title::after {
 .skills .skills-content .right .js::before {
     width: 28%;
 }
+.skills .skills-content .right .gith::before {
+    width: 20%;
+}
 
 
 /*  sesao contato  */
 .contact .title::after {
-    content: "Fale conosco";
+    content: "Fale comigo";
     background: #111;
 }   
 .contact .contact-content .column {

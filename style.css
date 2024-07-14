@@ -247,10 +247,12 @@ section .title::after {
 .skills .skills-content .column {
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text {
+.skills .skills-content .left .text,
+.right .text {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+    text-align: center;
 }
 .skills .skills-content .left p {
     text-align: justify;
@@ -271,6 +273,50 @@ section .title::after {
     color: #00804b;
     background: none;
 }
+/**/
+.curso1 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+ .curso1 .curso2 {
+    width: 100%;
+    height:80vh;
+    margin: 10px;
+}
+.curso1 .curso2 .curso3 {
+    width: 60%;
+    border: 2px solid #00804b;
+    background: #00804b;
+    color: #fff;
+    border-radius: 6px;
+    margin: 10px auto;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.curso1 .curso2 .curso3:hover {
+    background: #fff;
+    color: #222;
+}
+.curso1 .curso2 .curso3 .curso4 {
+    display: flex;
+    font-size: 17px;
+    padding: 5px;
+}
+.cursoHoras {
+    margin-left: 5px;
+}
+.curso1 .curso2 .curso3 .curso4 div {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+.curso1 .curso2 .curso3 .curso4 .cursoHoras {
+    text-align: center;
+}
+/**/
+
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
 }

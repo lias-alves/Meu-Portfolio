@@ -253,6 +253,7 @@ section .title::after {
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 .skills .skills-content .left p {
     text-align: justify;
@@ -273,7 +274,6 @@ section .title::after {
     color: #00804b;
     background: none;
 }
-/**/
 .curso1 {
     width: 100%;
     text-align: center;
@@ -315,8 +315,6 @@ section .title::after {
 .curso1 .curso2 .curso3 .curso4 .cursoHoras {
     text-align: center;
 }
-/**/
-
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
@@ -356,6 +354,13 @@ section .title::after {
 .skills .skills-content .right .gith::before {
     width: 20%;
 }
+.skills .skills-content .right .adr::before{
+    width: 62%;
+}
+.skills .skills-content .right .ldp::before{
+    width: 40%;
+}
+
 
 
 /*  sesao contato  */
